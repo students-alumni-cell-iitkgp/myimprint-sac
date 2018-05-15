@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Senior Class Gift 2016</title>
+  <title>Senior Class Gift 2018</title>
 
   <!-- CSS  -->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
@@ -27,7 +27,7 @@ body{overflow-x: hidden;}
           <li><a class="waves-effect waves-light item animated" href="#why">WHY</a></li>
           <li><a class="waves-effect waves-light item animated" href="#options">OPTIONS</a></li>
           <li><a class="waves-effect waves-light item animated" href="#how">HOW TO</a></li>
-          <li><a class="waves-effect waves-light item animated" href="#committee">THE COMMITTEE</a></li>
+          <!--<li><a class="waves-effect waves-light item animated" href="#committee">THE COMMITTEE</a></li>-->
           <li><a class="waves-effect waves-light item animated" href="#recognition">RECOGNITION</a></li>
           <li><a class="waves-effect waves-light item animated" href="#classgift">PREVIOUS CLASS GIFTS</a></li>
           <li><a class="waves-effect waves-light item animated" href="#contact">CONTACT</a></li>
@@ -38,7 +38,7 @@ body{overflow-x: hidden;}
           <li><a href="#why">WHY</a></li>
           <li><a href="#options">OPTIONS</a></li>
           <li><a href="#how">HOW TO</a></li>
-          <li><a href="#committee">THE COMMITTEE</a></li>
+          <!--<li><a href="#committee">THE COMMITTEE</a></li>-->
           <li><a href="#recognition">RECOGNITION</a></li>
           <li><a href="#classgift">PREVIOUS CLASS GIFTS</a></li>
           <li><a class="waves-effect waves-light"href="#contact">CONTACT</a></li>
@@ -49,13 +49,13 @@ body{overflow-x: hidden;}
     </nav>
   </div>
   <div class="row ac-summit">
-    <img src="my.jpg" style="max-height: 95vh; width: 100vw; " >
+    <img src="my1.jpg" style="max-height: 95vh; width: 100vw; " >
   </div>
   <!-- <div id="index-banner" class="parallax-container">
     <div class="parallax"><img src="My Imprint.jpg"></div>
   </div> -->
   <div class="container scrollspy"id="what">
-    <p class="menuheading animated">What is Senior Class Gift 2016 ?</p> 
+    <p class="menuheading animated">What is Senior Class Gift 2018 ?</p> 
     <p class="text">
      IIT-KGP has a long and historic legacy of Alumni Giving Back which has existed in different forms. The Graduating Class Gift is yet another chapter to be added in KGP alumni legacy initiated under My Imprint Programme.
 
@@ -104,7 +104,7 @@ body{overflow-x: hidden;}
      <div class="modal-content">
       <h4 class="menuheading animated">List of All Donors</h4>
       <?php 
-      include 'list.php';      
+     // include 'list.php';      
       ?>
       <div class="row">
         <div class="col s12">
@@ -291,7 +291,7 @@ body{overflow-x: hidden;}
     <div class="parallax"><img src="insti3.jpg" alt="Unsplashed background img 3"></div>
   </div>
   <div class="container scrollspy" id="options">
-    <p class="menuheading animated">OPTIONS OF SENIOR CLASS GIFT 2016 </p>
+    <p class="menuheading animated">OPTIONS OF SENIOR CLASS GIFT 2018 </p>
     <p class="text">
 
       As the My Imprint Program says, "By the students, For the Students", the following 9 options have been formulated by My Imprint Class Gift Committee, comprising of students only. Please click on The Committee tab to see the names of committee members.<br>
@@ -302,7 +302,7 @@ body{overflow-x: hidden;}
      <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/gym.jpg" style="height:192px">
+          <img class="activator" src="img/green gym.jpg" style="height:192px">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Green Gym</span>
@@ -319,28 +319,30 @@ body{overflow-x: hidden;}
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/bus.jpg" style="height:192px">
+          <img class="activator" src="img/Community Radio.jpg" style="height:192px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Bus Stands</span>
+          <span class="card-title activator grey-text text-darken-4">Community Radio</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Bus Stands<i class="material-icons right">close</i></span>
-          <p class="smalltext">Waiting for buses is not going to be a ‘standing in the sun and rain’ issue anymore. Proposed area of installation: At strategic locations in front of the Halls.</p>
+          <span class="card-title grey-text text-darken-4">Community Radio<i class="material-icons right">close</i></span>
+          <p class="smalltext">It will aid in <b>broadcasting</b> of content that is popular and relevant to KGP, thus helping the local population and students alike.
+</p>
         </div>
       </div>
     </div>
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/bestseller.jpg"style="height:192px">
+          <img class="activator" src="img/BC Roy Upgradation.jpg" style="height:192px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Bestsellers Section</span>
+          <span class="card-title activator grey-text text-darken-4">BC Roy Hospital</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Bestsellers Section<i class="material-icons right">close</i></span>
-          <p class="smalltext">With the vast sections of the library we never get the opportunity to issue current bestsellers. A new section for current bestsellers will curb the urge for all the book lovers.</p>
+          <span class="card-title grey-text text-darken-4">Upgradation of BC Roy Hospital<i class="material-icons right">close</i></span>
+          <p class="smalltext">Improvement and digitalization of B.C. Roy Hospital beneficial to students and also the other residents of IIT KGP.
+</p>
         </div>
       </div>
     </div>
@@ -350,43 +352,43 @@ body{overflow-x: hidden;}
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/games.jpg" height="217px">
+          <img class="activator" src="img/modular room.jpg" height="217px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Games Room</span>
+          <span class="card-title activator grey-text text-darken-4">Modular Rooms</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Games Room<i class="material-icons right">close</i></span>
-          <p class="smalltext">The empty space next to IOSYS building can be used for the construction of an indoor Games’ room that will have facilities ranging from TT tables, foosball to billiards.</p>
+          <span class="card-title grey-text text-darken-4">Modular Rooms for Students<i class="material-icons right">close</i></span>
+          <p class="smalltext">Modular Rooms can be used for group discussions, projects and group activities by students. Probable location for these rooms could be behind the Counselling Centre.</p>
         </div>
       </div>
     </div>
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/social.jpg" height="217px">
+          <img class="activator" src="img/game.jpg" height="217px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Socializing Zone</span>
+          <span class="card-title activator grey-text text-darken-4">Game Room</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Socoializing Zone<i class="material-icons right">close</i></span>
-          <p class="smalltext">A proper socializing zone can be built either in the free space in front of LLR or in the free space beyond Tikka. 
-          This can be a good rendezvous for the ‘Bhaat’ sessions and can be an alternative for the Basketball court or Jnan Ghosh stadium.</p>
+          <span class="card-title grey-text text-darken-4">Game Room<i class="material-icons right">close</i></span>
+          <p class="smalltext">The vacant area next to IOSYS can be used for the construction of an indoor Games’ room that will have facilities like TT tables, foosball and billiards.
+</p>
         </div>
       </div>
     </div>
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/cover.jpg" height="217px">
+          <img class="activator" src="img/AV Upgradation.jpg" height="217px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Covering Sidewalks</span>
+          <span class="card-title activator grey-text text-darken-4">AV Upgradation</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Covering Sidewalks<i class="material-icons right">close</i></span>
-          <p class="smalltext">The sidewalks from Vikramshila to Nalanda can be covered on top. This will be very beneficial for students and will provide them a shade from the sun and the rain.</p>
+          <span class="card-title grey-text text-darken-4">AV Upgradation of TOAT<i class="material-icons right">close</i></span>
+          <p class="smalltext">The AV Upgradation of TOAT will make it self sufficient and popular movies or Sports matches can be broadcasted there for all the students.</p>
         </div>
       </div>
     </div>
@@ -396,35 +398,35 @@ body{overflow-x: hidden;}
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/gym.png" style="height: 193px">
+          <img class="activator" src="img/Counselling Centre.jpg" style="height: 193px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Improving Hall Gyms</span>
+          <span class="card-title activator grey-text text-darken-4">Counselling Centre</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Improving Hall Gyms<i class="material-icons right">close</i></span>
-          <p class="smalltext">New multi-station sets can be donated to every hall gyms.</p>
+          <span class="card-title grey-text text-darken-4">Renovation of Counselling Centre<i class="material-icons right">close</i></span>
+          <p class="smalltext">Renovation of the counselling centre for giving better environment and good ears to listen to the student community of KGP.</p>
         </div>
       </div>
     </div>
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/skating.jpg" style="height: 193px">
+          <img class="activator" src="img/modular courses.jpg" style="height: 193px">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Skating Rink</span>
+          <span class="card-title activator grey-text text-darken-4">Modular Courses</span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Skating Rink<i class="material-icons right">close</i></span>
-          <p class="smalltext">With the rising number of skating and skateboarding enthusiasts, it’s high time that we have a properly constructed skating rink inside our campus. A skating rink can be built inside the Vikramshila basement or in the PAN loop space.</p>
+          <span class="card-title grey-text text-darken-4">Modular Courses for UG/PG/RS Freshman<i class="material-icons right">close</i></span>
+          <p class="smalltext">Modular Courses provided by British Council, IELTS can be made accessible to Freshmen for improving their communication and writing skills.</p>
         </div>
       </div>
     </div>
     <div class="col s12 l4 m4">
       <div class="card hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/studio.png"style="height: 193px">
+          <img class="activator" src="img/musical.jpg"style="height: 193px">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Music Recording Studio</span>
@@ -452,353 +454,73 @@ body{overflow-x: hidden;}
       </li>
     </ul></center>
   </div>
-  <div class="scrollspy" id="committee">
-    <p class="menuheading animated">My Imprint Class Gift Committee</p>
-    <p class="text center">Committee Members</p>
-    <div class="container">
-      <div class="row">
-        <div class="col l4 s12 m7 offset-l1" style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Vishal Kumar Singh<br>Students' Alumni Cell G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Bharat Chandra<br>Students' Alumni Cell G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Mayank Srivastava<br>Vice President, Gymkhana</p></center>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l4 s12 m7 offset-l1"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Vaibhav Chauhan<br>Ex-SAC G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Mridul Pant<br>Ex-SAC G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7" style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Shovan Panigrahi<br>Ex-VP Gymkhana </p></center>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col l4 s12 m7 offset-l1"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Pranshu Jain<br>Ex-SAC G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7"style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Rohan Gupta<br>Ex-SAC G-Sec</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12 m7" style="width: 250px">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Atal Ashutosh Agarwal<br>Ex-VP Gymkhana </p></center>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-      <p class="text center">Sub-Committee Members</p>
-      <div class="row">
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Shashwat Pandey<br>Azad</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Chirag Bariya<br>Nehru</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Raga Bharani Chenna<br>SN/IG</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Sharad Kumar<br>LBS</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Prashant Jeph<br>RK</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Risabh Upadhyay<br>HJB</p></center>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Chandra Mohan Meena<br>Patel</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Lokesh Singh<br>LLR</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Chavan Mukund Ashok Rao<br>MS</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Vinusha Anem<br>MT</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Mrutyunjaya Mohapatra<br>RP</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Muvvala Gopinath<br>JCB</p></center>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Sumit Tiwari<br>VS</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Sayantani Datta<br>Gokhale</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Tanmay Bagui<br>BC ROY</p></center> 
-              <!-- missing -->
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Ashok Shaw<br>BRH</p></center>
-              <!-- missing -->
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Shivangi Singh<br>SAM</p></center>
-            </div>
-          </div>
-        </div>
-        <div class="col l2 s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-
-            </div>
-            <div class="card-content">
-              <center><p>Smita Patel<br>SN</p></center>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  
     <div class="scrollspy" id="recognition">
       <p class="menuheading animated">RECOGNITION</p>
       <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
           <div class="container">
             <div class="row right-align">
-              <h5 class="light left" style="font-size:1.1rem">All Donors will be given Senior Class of 2016 T-shirts. </h5>
+             <!-- <h5 class="light left" style="font-size:1.1rem">All Donors will be given Senior Class of 2016 T-shirts. </h5>-->
             </div>
             <div class="row left-align" style="margin-top:230px;">
-              <h5 class="light right"style="font-size:1.1rem">Alumni Card and Yearbook 2016 for all the Graduating Students. </h5>
+              <!--<h5 class="light right"style="font-size:1.1rem">Alumni Card and Yearbook 2016 for all the Graduating Students. </h5>-->
             </div>
           </div>
         </div>
-        <div class="parallax"><img src="recognition.jpg" style="width: 100vw;"></div>
+        <div class="parallax"><img src="recognition2.jpg" style="width: 100vw;"></div>
       </div>
     </div>
     <div class="scrollspy" id="classgift">
       <p class="menuheading animated">PREVIOUS CLASS GIFTS</p>
       <div class="row">
-        <div class="col l4 m4 s12">
+      <div class="col l3 m3 s12">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="img/cg17.jpg">
+            </div>
+            <div class="card-content">
+             <span class="card-title">CLASS GIFT OF 2017</span>
+             <p class="text" style="font-size: 100%;">90% of Class of 2017 voted for the gift in various categories and close to 450 students contributed their caution money.<br>
+             Class of 2017 voted to gift Bus Stand at Strategic Location in the Campus.</p>
+           </div>
+         </div>
+       </div>
+
+        <div class="col l3 m3 s12">
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/classgift2.jpg">
             </div>
             <div class="card-content">
              <span class="card-title">CLASS GIFT OF 2016</span>
-             <p class="text">80% of Class of 2015 voted for the gift in various categories and close to 400 students contributed their caution money.<br>
+             <p class="text" style="font-size: 100%; padding-bottom: 52px;">80% of Class of 2016 voted for the gift in various categories and close to 400 students contributed their caution money.<br>
              Class of 2015 voted to gift Campus Benches.</p>
            </div>
          </div>
        </div>
 
-       <div class="col l4 m4 s12">
+       <div class="col l3 m3 s12">
         <div class="card hoverable">
           <div class="card-image">
             <img src="img/classgift.jpg">
           </div>
           <div class="card-content">
            <span class="card-title">CLASS GIFT OF 2015</span>
-           <p class="text">80% of Class of 2015 voted for the gift in various categories and close to 400 students contributed their caution money.<br>
+           <p class="text" style="font-size: 100%; padding-bottom: 52px;">80% of Class of 2015 voted for the gift in various categories and close to 400 students contributed their caution money.<br>
            Class of 2015 voted to gift Campus Benches.</p>
          </div>
        </div>
      </div>
-     <div class="col l4 m4 s12">
+
+     <div class="col l3 m3 s12">
       <div class="card hoverable">
         <div class="card-image">
           <img src="img/2014.jpg">
         </div>
         <div class="card-content">
          <span class="card-title">CLASS GIFT OF 2014</span>
-         <p class="text">70% of Class of 2014 voted for the gift in various categories and close to 350 students contributed their caution money.<br>
+         <p class="text" style="font-size: 100%;">70% of Class of 2014 voted for the gift in various categories and close to 350 students contributed their caution money.<br>
          Class of 2014 voted to support International Participation of students.</p>
        </div>
      </div>
@@ -820,7 +542,7 @@ body{overflow-x: hidden;}
       imbharat16@gmail.com<br>
     +91 9932544235 </p>
     <div class="footer-copyright">
-      <p class="text black" style="padding-top: 5px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;height: 50px">&copy;Copyrights reserved 2016</p>
+      <p class="text black" style="padding-top: 5px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;height: 50px">&copy;Copyrights reserved 2018</p>
 
     </div></center>
   </footer>
