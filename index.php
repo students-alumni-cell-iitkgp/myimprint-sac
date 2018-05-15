@@ -104,7 +104,7 @@ body{overflow-x: hidden;}
      <div class="modal-content">
       <h4 class="menuheading animated">List of All Donors</h4>
       <?php 
-     // include 'list.php';      
+      include 'list.php';      
       ?>
       <div class="row">
         <div class="col s12">
