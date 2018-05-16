@@ -534,13 +534,13 @@ body{overflow-x: hidden;}
     <p class="smalltext">alumni@hijli.iitkgp.ernet.in<br>
     03222 281860</p>
     <p class="text" style="padding: 0px">Students' Alumni Cell General Secretaries</p>
-    <p class="smalltext">Vishal Kumar Singh<br>
-      vishalsingh08.iitkgp@gmail.com<br>
-      +91 8769797343<br>
+    <p class="smalltext">Vasanta Majety<br>
+      vasantamajety@gmail.com<br>
+      +91 7477745444<br>
 
-      Bharat Chandra<br>
-      imbharat16@gmail.com<br>
-    +91 9932544235 </p>
+      Gautam Arya<br>
+      gautam25arya@gmail.com<br>
+    +91 8349702291</p>
     <div class="footer-copyright">
       <p class="text black" style="padding-top: 5px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;height: 50px">&copy;Copyrights reserved 2018</p>
 
