@@ -21,8 +21,9 @@ body{overflow-x: hidden;}
   <div class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo left"style="padding-left: 10px; padding-top: 5px;"><img src="logo.png" width="160px"></a>
+        <a href="http://www.sac.iitkgp.ac.in/" class="brand-logo left"style="padding-left: 10px; padding-top: 5px;"><img src="logo.png" width="160px"></a>
         <ul class="right hide-on-med-and-down">
+          <li><a class="waves-effect waves-light item animated" href="http://www.sac.iitkgp.ac.in/">HOME</a></li>
           <li><a class="waves-effect waves-light item animated" href="#what">WHAT</a></li>
           <li><a class="waves-effect waves-light item animated" href="#why">WHY</a></li>
           <li><a class="waves-effect waves-light item animated" href="#options">OPTIONS</a></li>
@@ -34,6 +35,7 @@ body{overflow-x: hidden;}
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
+          <li><a href="http://www.sac.iitkgp.ac.in/">HOME</a></li>
           <li><a href="#what">WHAT</a></li>
           <li><a href="#why">WHY</a></li>
           <li><a href="#options">OPTIONS</a></li>
@@ -55,7 +57,7 @@ body{overflow-x: hidden;}
     <div class="parallax"><img src="My Imprint.jpg"></div>
   </div> -->
   <div class="container scrollspy"id="what">
-    <p class="menuheading animated">What is Senior Class Gift 2018 ?</p> 
+    <p class="menuheading animated">What is Senior Class Gift 2018 ?</p>
     <p class="text">
      IIT-KGP has a long and historic legacy of Alumni Giving Back which has existed in different forms. The Graduating Class Gift is yet another chapter to be added in KGP alumni legacy initiated under My Imprint Programme.
 
@@ -76,7 +78,7 @@ body{overflow-x: hidden;}
         <div class="input-field col s12 l6 m12 offset-l3 ">
           <input name="rollno" autofocus placeholder="Roll Number" type="text" required>
           <label for="rollno">Roll Number ( 14THXXXXX )</label>
-        </div> </div> 
+        </div> </div>
         <div class="row">
           <div class="input-field col s12 l6 m12 offset-l3 ">
             <input name="dob" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Date of Birth" type="text" required>
@@ -88,7 +90,7 @@ body{overflow-x: hidden;}
             </div></div>
           </div>
 
-          <!--END FORM--> 
+          <!--END FORM-->
         </div>
       </div>
     </form>
@@ -103,8 +105,8 @@ body{overflow-x: hidden;}
     <div id="modal2" class="modal">
      <div class="modal-content">
       <h4 class="menuheading animated">List of All Donors</h4>
-      <?php 
-      include 'list.php';      
+      <?php
+      include 'list.php';
       ?>
       <div class="row">
         <div class="col s12">
@@ -126,7 +128,7 @@ body{overflow-x: hidden;}
             </thead>
             <tbody>
 
-              <?php 
+              <?php
               foreach ($arr_2012 as $a) {
 
                 echo '<tr><td>'.$a['Roll No'].'</td><td>'.$a['FIRST NAME'].$a['MIDDLE NAME'].$a['LAST NAME'].'</td></tr>';
@@ -146,7 +148,7 @@ body{overflow-x: hidden;}
             </thead>
             <tbody>
 
-              <?php 
+              <?php
               foreach ($arr_2013 as $a) {
 
                 echo '<tr><td>'.$a['Rollno'].'</td><td>'.$a['Name'].'</td></tr>';
@@ -166,7 +168,7 @@ body{overflow-x: hidden;}
             </thead>
             <tbody>
 
-              <?php 
+              <?php
               foreach ($arr_2014 as $a) {
 
                 echo '<tr><td>'.$a['ROLL NO'].'</td><td>'.$a['FULL NAME'].'</td></tr>';
@@ -186,7 +188,7 @@ body{overflow-x: hidden;}
             </thead>
             <tbody>
 
-              <?php 
+              <?php
               foreach ($arr_2015 as $a) {
 
                echo '<tr><td>'.$a['Rollno'].'</td><td>'.$a['Name'].'</td></tr>';
@@ -205,7 +207,7 @@ body{overflow-x: hidden;}
               </tr>
             </thead>
             <tbody>
-              <?php 
+              <?php
               foreach ($arr_2016 as $a) {
 
                 echo '<tr><td>'.$a['Roll Number'].'</td><td>'.$a['Full Name'].'</td></tr>';
@@ -226,7 +228,7 @@ body{overflow-x: hidden;}
     <div class="parallax"><img src="insti2.jpg" alt="Unsplashed background img 2"></div>
   </div>
   <div class="scrollspy"id="why">
-    <p class="menuheading animated">Why would you love to give ?</p> 
+    <p class="menuheading animated">Why would you love to give ?</p>
     <div class="row">
       <div class="col s12 l4 m4">
         <div class="card hoverable">
@@ -274,7 +276,7 @@ body{overflow-x: hidden;}
     <div class="container">
       <div class="row">
         <div class="col s12 l12 m12">
-          <p class="menuheading animated">Why your gift matters, at a big institute like IIT Kharagpur?</p> 
+          <p class="menuheading animated">Why your gift matters, at a big institute like IIT Kharagpur?</p>
           <p class="text">Many of us don't realize that government fund can never cover all of the IIT-KGP experiences. If IIT-KGP wants to start a new pre-professional program, support an innovative student project, or expand student life opportunities, philanthropy makes it possible. </p>
 
         </div>
@@ -454,7 +456,7 @@ body{overflow-x: hidden;}
       </li>
     </ul></center>
   </div>
-  
+
     <div class="scrollspy" id="recognition">
       <p class="menuheading animated">RECOGNITION</p>
       <div id="index-banner" class="parallax-container">
@@ -552,12 +554,12 @@ body{overflow-x: hidden;}
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
-<script> 
+<script>
   $(document).ready(function(){
     $(".item , .menuheading").hover(
       function () {
         $(this).addClass('pulse');
-      }, 
+      },
       function () {
         $(this).removeClass('pulse');
       }
